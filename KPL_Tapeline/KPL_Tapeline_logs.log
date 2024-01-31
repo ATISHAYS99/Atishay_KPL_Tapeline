@@ -1,0 +1,1216 @@
+2023-12-01 16:59:36,251  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 16:59:55,976 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: calculate_tapes_demand() missing 1 required positional argument: 'engine'
+2023-12-01 16:59:56,016 127.0.0.1 - - [01/Dec/2023 16:59:56] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-01 17:03:36,839  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 17:03:47,138 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: calculate_tapes_demand() missing 1 required positional argument: 'engine'
+2023-12-01 17:03:47,141 127.0.0.1 - - [01/Dec/2023 17:03:47] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-01 17:05:16,900 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: calculate_tapes_demand() missing 1 required positional argument: 'engine'
+2023-12-01 17:05:16,902 127.0.0.1 - - [01/Dec/2023 17:05:16] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-01 17:05:31,631  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 17:05:34,115 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+TypeError: calculate_tapes_demand() missing 1 required positional argument: 'engine'
+2023-12-01 17:05:34,117 127.0.0.1 - - [01/Dec/2023 17:05:34] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-01 17:09:21,268  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 17:09:28,688 Connection successfully established!
+2023-12-01 17:09:28,760 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 462, in calculate_tapes_demand
+    df_ww = calculator.read_fabric_recipe()
+AttributeError: 'TapeDemandCalculator' object has no attribute 'read_fabric_recipe'
+2023-12-01 17:09:28,765 127.0.0.1 - - [01/Dec/2023 17:09:28] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-01 17:11:11,013  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 17:12:02,359  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 17:12:18,337 Connection successfully established!
+2023-12-01 17:13:51,634 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 481, in calculate_tapes_demand
+    demand_in = calculator.invent_df(demand_load_unload)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 253, in invent_df
+    self.df_invent_GR = self.df_invent_GR[self.self.df_invent_GR['Total'] > 0 ]
+AttributeError: 'TapeDemandCalculator' object has no attribute 'self'
+2023-12-01 17:13:51,690 127.0.0.1 - - [01/Dec/2023 17:13:51] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-01 18:02:27,475  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 18:05:15,063 Connection successfully established!
+2023-12-01 18:06:41,782 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 485, in calculate_tapes_demand
+    demand_df2 = calculator.add_buffer_plan(demand_df2)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 444, in add_buffer_plan
+    self.sbuffer_demand['Loom_Location'] = 'Gajner Road'
+AttributeError: 'TapeDemandCalculator' object has no attribute 'sbuffer_demand'
+2023-12-01 18:06:41,855 127.0.0.1 - - [01/Dec/2023 18:06:41] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-01 18:09:58,425 Connection successfully established!
+2023-12-01 18:11:31,543 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 485, in calculate_tapes_demand
+    demand_df2 = calculator.add_buffer_plan(demand_df2)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 444, in add_buffer_plan
+    self.buffer_demand['Loom_Location'] = 'Gajner Road'
+AttributeError: 'TapeDemandCalculator' object has no attribute 'sbuffer_demand'
+2023-12-01 18:11:31,544 127.0.0.1 - - [01/Dec/2023 18:11:31] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-01 18:15:33,487 Connection successfully established!
+2023-12-01 18:17:17,302 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 485, in calculate_tapes_demand
+    demand_df2 = calculator.add_buffer_plan(demand_df2)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 444, in add_buffer_plan
+    self.buffer_demand['Loom_Location'] = 'Gajner Road'
+AttributeError: 'TapeDemandCalculator' object has no attribute 'sbuffer_demand'
+2023-12-01 18:17:17,303 127.0.0.1 - - [01/Dec/2023 18:17:17] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-01 18:18:35,545  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 18:18:41,872 Connection successfully established!
+2023-12-01 18:20:08,306 127.0.0.1 - - [01/Dec/2023 18:20:08] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-01 18:48:17,655  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 18:48:20,627 Connection successfully established!
+2023-12-01 18:49:33,202 127.0.0.1 - - [01/Dec/2023 18:49:33] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-01 18:58:13,031  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 18:58:22,708 Connection successfully established!
+2023-12-01 19:07:48,791 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 638, in calculate_tapes_demand
+    demand_df_final.to_excel("Demand_final.xlsx",index=False)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\generic.py", line 2252, in to_excel
+    formatter.write(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\formats\excel.py", line 934, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\excel\_openpyxl.py", line 60, in __init__
+    super().__init__(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\excel\_base.py", line 1219, in __init__
+    self._handles = get_handle(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'Demand_final.xlsx'
+2023-12-01 19:07:48,923 127.0.0.1 - - [01/Dec/2023 19:07:48] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-01 19:09:09,374  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 19:09:14,229 Connection successfully established!
+2023-12-01 19:11:12,450 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+2023-12-01 19:11:12,450 127.0.0.1 - - [01/Dec/2023 19:11:12] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-01 21:59:53,230  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-01 22:00:00,099 Connection successfully established!
+2023-12-04 10:07:42,415  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 10:09:28,587 Connection successfully established!
+2023-12-04 10:11:20,158 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 10:11:20,161 127.0.0.1 - - [04/Dec/2023 10:11:20] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 10:15:56,463  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 10:17:04,918 Connection successfully established!
+2023-12-04 10:17:09,468 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 10:17:49,787 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 10:18:51,979 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 10:18:51,981 127.0.0.1 - - [04/Dec/2023 10:18:51] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 10:32:22,188  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 10:32:25,183 Connection successfully established!
+2023-12-04 10:32:29,622 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 10:33:09,474 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 10:37:59,236 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 10:37:59,237 127.0.0.1 - - [04/Dec/2023 10:37:59] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 10:57:07,922  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 10:57:14,598 Connection successfully established!
+2023-12-04 10:57:20,546 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 10:58:41,408 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 10:59:33,600 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 10:59:33,602 127.0.0.1 - - [04/Dec/2023 10:59:33] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 11:21:09,548  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 11:22:16,610 Connection successfully established!
+2023-12-04 11:22:21,972 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 11:22:54,195 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 11:23:38,886 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 11:23:38,887 127.0.0.1 - - [04/Dec/2023 11:23:38] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 11:27:44,989  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 11:27:48,917 Connection successfully established!
+2023-12-04 11:27:52,465 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 11:28:23,992 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 11:29:08,339 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 11:29:08,340 127.0.0.1 - - [04/Dec/2023 11:29:08] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 11:46:07,243  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 11:46:36,877 127.0.0.1 - - [04/Dec/2023 11:46:36] "[33mGET /app/v1/kpl/tapeline/generate_schedule' HTTP/1.1[0m" 404 -
+2023-12-04 11:46:39,822 127.0.0.1 - - [04/Dec/2023 11:46:39] "[33mGET /app/v1/kpl/tapeline/generate_schedule' HTTP/1.1[0m" 404 -
+2023-12-04 11:47:38,260 127.0.0.1 - - [04/Dec/2023 11:47:38] "[33mGET /app/v1/kpl/tapeline/generate_schedule' HTTP/1.1[0m" 404 -
+2023-12-04 11:47:47,081 127.0.0.1 - - [04/Dec/2023 11:47:47] "[33mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 404 -
+2023-12-04 11:48:40,859  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 11:48:43,319 127.0.0.1 - - [04/Dec/2023 11:48:43] "[33mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 404 -
+2023-12-04 11:50:56,622  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 11:50:59,582 127.0.0.1 - - [04/Dec/2023 11:50:59] "[33mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 404 -
+2023-12-04 11:51:59,945 127.0.0.1 - - [04/Dec/2023 11:51:59] "[33mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 404 -
+2023-12-04 12:09:50,871  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 12:10:28,489 Connection successfully established!
+2023-12-04 12:11:05,696  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 12:11:10,082 Connection successfully established!
+2023-12-04 12:11:14,756 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 12:11:56,045 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 12:11:58,018 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 12:11:58,489 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 12:11:58,860 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 12:11:59,007 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 12:12:42,283 File: Demand, Function: DataToDB, Status: Tables are successfullty Truncated
+2023-12-04 12:12:43,022 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 12:12:43,065 127.0.0.1 - - [04/Dec/2023 12:12:43] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 12:22:05,219  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 12:24:09,313 Connection successfully established!
+2023-12-04 12:24:25,139 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 12:26:36,355  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 12:26:42,294 Connection successfully established!
+2023-12-04 12:26:59,477 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 12:27:03,423 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 12:28:02,180  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 12:28:10,109 Connection successfully established!
+2023-12-04 12:28:15,019 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 12:29:07,203 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 12:29:08,964 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 12:29:09,264 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 12:29:09,563 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 12:29:09,818 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 12:29:54,754 File: Demand, Function: DataToDB, Status: Tables are successfullty Truncated
+2023-12-04 12:29:55,017 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 12:29:55,018 127.0.0.1 - - [04/Dec/2023 12:29:55] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 12:30:39,720  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 12:30:44,225 Connection successfully established!
+2023-12-04 12:30:49,539 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 12:32:02,628 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 12:32:04,356 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 12:32:04,599 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 12:32:04,757 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 12:32:04,913 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 12:32:55,082  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 12:32:57,326 Connection successfully established!
+2023-12-04 12:33:01,480 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 12:33:34,573 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 12:33:35,912 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 12:33:36,082 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 12:33:36,255 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 12:33:36,344 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 12:34:13,889 File: Demand, Function: process_tape_demand, Status: excecuted
+2023-12-04 12:34:14,657 File: Demand, Function: DataToDB, Status: Tables are successfullty Truncated
+2023-12-04 12:34:14,930 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 12:34:14,931 127.0.0.1 - - [04/Dec/2023 12:34:14] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 12:36:26,858  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 12:36:32,102 Connection successfully established!
+2023-12-04 12:36:49,860 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 12:36:51,496 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 12:43:24,667 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 12:45:07,527 Exception on /app/v1/kpl/tapeline/generate_schedule [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexes\base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas\_libs\index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'RPTAPE'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1258, in get_schedule
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 314, in schedule_tapes
+    continue
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\indexes\base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'RPTAPE'
+2023-12-04 12:45:07,875 127.0.0.1 - - [04/Dec/2023 12:45:07] "[35m[1mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 500 -
+2023-12-04 12:49:47,474  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 12:49:52,790 Connection successfully established!
+2023-12-04 12:49:57,341 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 12:50:48,165 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 12:50:49,898 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 12:50:50,179 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 12:50:50,372 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 12:50:50,598 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 12:51:46,837 File: Demand, Function: process_tape_demand, Status: excecuted
+2023-12-04 12:51:49,432 File: Demand, Function: DataToDB, Status: Tables are successfullty Truncated
+2023-12-04 12:51:49,987 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 12:51:49,989 127.0.0.1 - - [04/Dec/2023 12:51:49] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 12:55:38,632  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 12:55:44,458 Connection successfully established!
+2023-12-04 12:55:59,687 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 12:56:02,944 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 13:00:20,021 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 13:08:54,104  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 13:09:01,546 Connection successfully established!
+2023-12-04 13:09:09,695 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 13:10:01,489 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 13:10:03,401 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 13:10:03,718 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 13:10:04,131 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 13:10:04,356 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 13:10:46,112 File: Demand, Function: process_tape_demand, Status: excecuted
+2023-12-04 13:10:50,360 File: Demand, Function: DataToDB, Status: Tables are successfullty Truncated
+2023-12-04 13:10:50,743 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 13:10:50,781 127.0.0.1 - - [04/Dec/2023 13:10:50] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 13:46:30,844  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 13:46:51,654  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 13:47:02,540 Connection successfully established!
+2023-12-04 13:47:20,755 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 13:47:24,862 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 13:52:41,405 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 13:52:54,647 File :generate_schedule, Function :  best_machine_schedule_tapes, Status: not executed, Reason : module 'datetime' has no attribute 'strptime'
+2023-12-04 13:52:54,648 Exception on /app/v1/kpl/tapeline/generate_schedule [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1203, in get_schedule
+    schedule_df = pd.DataFrame(schedule[0][1:], columns=schedule[0][0])
+TypeError: 'NoneType' object is not subscriptable
+2023-12-04 13:52:54,697 127.0.0.1 - - [04/Dec/2023 13:52:54] "[35m[1mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 500 -
+2023-12-04 13:56:25,888  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 13:56:29,655 Connection successfully established!
+2023-12-04 13:56:51,323 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 13:56:56,050 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 14:01:38,894 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 14:03:30,502 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 14:03:42,286 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-04 14:03:43,076 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfullty Truncated
+2023-12-04 14:03:43,076 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are Not added into DB, Reason: type object 'datetime.datetime' has no attribute 'datetime'
+2023-12-04 14:03:43,077 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are Not added into DB, Reason: type object 'datetime.datetime' has no attribute 'datetime'
+2023-12-04 14:03:43,713 127.0.0.1 - - [04/Dec/2023 14:03:43] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-04 14:13:51,750  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 14:14:02,420 Connection successfully established!
+2023-12-04 14:14:07,404 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 14:14:52,622 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 14:14:54,039 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 14:14:54,561 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 14:14:55,174 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 14:14:55,448 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 14:15:56,867 File: Demand, Function: process_tape_demand, Status: excecuted
+2023-12-04 14:16:00,085 File: Demand, Function: DataToDB, Status: Tables are successfullty Truncated
+2023-12-04 14:16:00,388 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 14:16:00,421 127.0.0.1 - - [04/Dec/2023 14:16:00] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 14:16:42,309  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 14:16:49,355 Connection successfully established!
+2023-12-04 14:17:12,927 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 14:17:15,782 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 14:21:50,675 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 14:22:58,414 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 14:23:04,028 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-04 14:23:04,741 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfullty Truncated
+2023-12-04 14:23:05,690 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-04 14:23:06,403 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are added into DB
+2023-12-04 14:23:06,680 127.0.0.1 - - [04/Dec/2023 14:23:06] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-04 14:44:17,126  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 14:45:16,271 Connection successfully established!
+2023-12-04 14:45:22,256 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 14:46:06,400 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 14:46:08,470 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 14:46:08,806 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 14:46:09,195 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 14:46:09,549 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 14:46:59,213 File: Demand, Function: process_tape_demand, Status: excecuted
+2023-12-04 14:47:12,234 File: Demand, Function: DataToDB, Status: Tables are successfullty Truncated
+2023-12-04 14:47:12,550 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: expected a simple type, a tuple or a list
+2023-12-04 14:47:12,552 127.0.0.1 - - [04/Dec/2023 14:47:12] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 14:52:29,156  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 14:52:33,158 Connection successfully established!
+2023-12-04 14:52:38,722 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 14:53:28,274 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 14:53:30,123 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 14:53:30,520 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 14:53:30,757 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 14:53:30,886 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 14:54:52,455  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 14:54:55,457 Connection successfully established!
+2023-12-04 14:54:59,566 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 14:55:49,198 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 14:55:50,916 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 14:55:51,159 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 14:55:51,314 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 14:55:51,419 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 14:56:44,425 File: Demand, Function: process_tape_demand, Status: excecuted
+2023-12-04 14:56:46,602 File: Demand, Function: DataToDB, Status: Tables are successfullty Truncated
+2023-12-04 14:56:47,388 File: Demand, Function: upload_demand_to_DB, Status: Tables are Not added into DB, Reason: (pymssql._pymssql.ProgrammingError) (207, b"Invalid column name 'AuditDateTime'.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\nDB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+[SQL: INSERT INTO [Algo8_Tapeline_Demand] ([TapeId], [FabricId], [Tape_Target_Date], [Loom_Location], [LoomNo], [LoomType], [Tape_name], [TapePropertyName], [Total_Demand], [Initial_Demand], [Inventory_Utilised], [Tape(Kg)], [Weft_Demand], [Warp_Demand], [ ... 45946 characters truncated ...  %(FabricWarpMesh__62)s, %(Tape_Denier__62)s, %(TapeUv__62)s, %(RPTAPE__62)s, %(AuditDateTime__62)s)]
+[parameters: {'LoomNo__0': 57, 'TapeDenier__0': 600, 'RPTAPE__0': 1, 'Tape_Denier__0': 'Low', 'FabricId__0': 7745, 'Tape_name__0': 'PP-Standard Tape - 2.5 - 600 - White-UV - 29', 'TapeRP__0': 7.0, 'TapeColour__0': 'white', 'Production_capacity_per_dayAMtrsZ__0': 1779, 'TapeMarking__0': None, 'MaterialId__0': 1, 'AuditDateTime__0': datetime.datetime(2023, 12, 4, 14, 56, 46, 602637), 'Warp_rf_Demand__0': 0.0, 'Loom_Location__0': 'D-19', 'TapeAKgZ__0': 103.54, 'TapePropertyName__0': "['Warp']", 'Tape_Load__0': 471.0, 'TapeUv__0': 1, 'Initial_Demand__0': 574.54, 'Tape_Target_Date__0': datetime.datetime(2023, 12, 1, 17, 37, 35, 100000), 'TapeFiller__0': 5, 'Total_Demand__0': 574.54, 'Tape_Unload__0': 188.4, 'LoomType__0': 'LSL - 6', 'Warp_Demand__0': 574.54, 'FabricWarpMesh__0': 8.0, 'TapeWidth__0': 'Standard', 'Inventory_Utilised__0': 0.0, 'PreLogic_FinalFactor__0': 1, 'ULFabricBalanceToMakeAMtrsZ__0': 5337, 'Demand_Source__0': 'Weaving_Planning', 'TapeId__0': 620, 'Weft_Demand__0': 0.0, 'LoomNo__1': 730, 'TapeDenier__1': 680, 'RPTAPE__1': 0, 'Tape_Denier__1': 'Low', 'FabricId__1': 14611, 'Tape_name__1': 'PP-Standard Tape - 3.1 - 680 - Black-UV - 33', 'TapeRP__1': 0.0, 'TapeColour__1': 'black', 'Production_capacity_per_dayAMtrsZ__1': 1469, 'TapeMarking__1': None, 'MaterialId__1': 1, 'AuditDateTime__1': datetime.datetime(2023, 12, 4, 14, 56, 46, 602637), 'Warp_rf_Demand__1': 0.0, 'Loom_Location__1': 'Gajner Road', 'TapeAKgZ__1': 464.68, 'TapePropertyName__1': "['Weft' 'Warp']", 'Tape_Load__1': 1071.0 ... 1979 parameters truncated ... 'Tape_Load__61': 2949.0, 'TapeUv__61': 1, 'Initial_Demand__61': 4500.87, 'Tape_Target_Date__61': datetime.datetime(2023, 12, 1, 17, 37, 35, 180000), 'TapeFiller__61': 5, 'Total_Demand__61': 2070.87, 'Tape_Unload__61': 1179.6, 'LoomType__61': 'Nova 82', 'Warp_Demand__61': 649.8199999999997, 'FabricWarpMesh__61': 11.30000019073486, 'TapeWidth__61': 'Narrow', 'Inventory_Utilised__61': 2430.0, 'PreLogic_FinalFactor__61': 1, 'ULFabricBalanceToMakeAMtrsZ__61': 3141, 'Demand_Source__61': 'Weaving_Planning', 'TapeId__61': 614, 'Weft_Demand__61': 0.0, 'LoomNo__62': 738, 'TapeDenier__62': 2125, 'RPTAPE__62': 1, 'Tape_Denier__62': 'High', 'FabricId__62': 14265, 'Tape_name__62': 'PP-Wider Tape - 4.2 - 2125 - White-1.75% UV (26SG) - 123', 'TapeRP__62': 5.0, 'TapeColour__62': 'white', 'Production_capacity_per_dayAMtrsZ__62': 2362, 'TapeMarking__62': None, 'MaterialId__62': 98, 'AuditDateTime__62': datetime.datetime(2023, 12, 4, 14, 56, 46, 602637), 'Warp_rf_Demand__62': 0.0, 'Loom_Location__62': 'Gajner Road', 'TapeAKgZ__62': 217.28, 'TapePropertyName__62': "['Weft']", 'Tape_Load__62': 0.0, 'TapeUv__62': 1, 'Initial_Demand__62': 217.28, 'Tape_Target_Date__62': datetime.datetime(2023, 12, 1, 17, 37, 35, 180000), 'TapeFiller__62': 5, 'Total_Demand__62': 217.28, 'Tape_Unload__62': 0.0, 'LoomType__62': 'Nova62 HF', 'Warp_Demand__62': 0.0, 'FabricWarpMesh__62': 11.39999961853027, 'TapeWidth__62': 'Wider', 'Inventory_Utilised__62': 0.0, 'PreLogic_FinalFactor__62': 2, 'ULFabricBalanceToMakeAMtrsZ__62': 1841, 'Demand_Source__62': 'Weaving_Planning', 'TapeId__62': 1177, 'Weft_Demand__62': 217.28}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2023-12-04 14:56:47,437 127.0.0.1 - - [04/Dec/2023 14:56:47] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 14:58:17,464  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 14:58:26,584 Connection successfully established!
+2023-12-04 14:58:35,979 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 14:59:26,195 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 14:59:29,368 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 14:59:29,658 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 14:59:29,847 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 14:59:30,230 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 15:00:29,726 File: Demand, Function: process_tape_demand, Status: excecuted
+2023-12-04 15:00:32,986 File: Demand, Function: DataToDB, Status: Tables are Not Truncated, Reason: (4701, b'Cannot find the object "Algo8_Tapeline_Demand" because it does not exist or you do not have permissions.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+2023-12-04 15:00:32,999 Exception on /app/v1/kpl/tapeline/calculate_demand [GET]
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 459, in pymssql._pymssql.Cursor.execute
+  File "src\\pymssql\\_mssql.pyx", line 1087, in pymssql._mssql.MSSQLConnection.execute_query
+  File "src\\pymssql\\_mssql.pyx", line 1118, in pymssql._mssql.MSSQLConnection.execute_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (4701, b'Cannot find the object "Algo8_Tapeline_Demand" because it does not exist or you do not have permissions.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 622, in upload_demand_to_DB
+    cursor.execute("Truncate table Algo8_Tapeline_Demand")
+  File "src\\pymssql\\_pymssql.pyx", line 479, in pymssql._pymssql.Cursor.execute
+pymssql._pymssql.OperationalError: (4701, b'Cannot find the object "Algo8_Tapeline_Demand" because it does not exist or you do not have permissions.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 689, in calculate_tapes_demand
+    calculator.upload_demand_to_DB(demand)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\demand.py", line 632, in upload_demand_to_DB
+    raise "Not able to Truncate the tables"
+TypeError: exceptions must derive from BaseException
+2023-12-04 15:00:33,094 127.0.0.1 - - [04/Dec/2023 15:00:33] "[35m[1mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 500 -
+2023-12-04 15:01:11,384  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 15:01:16,024 Connection successfully established!
+2023-12-04 15:01:19,768 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-04 15:02:08,850 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-04 15:02:10,398 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-04 15:02:10,738 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-04 15:02:10,900 File: Demand, Function: days_demand, Status: excecuted
+2023-12-04 15:02:11,047 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-04 15:03:06,679 File: Demand, Function: process_tape_demand, Status: excecuted
+2023-12-04 15:03:08,831 File: Demand, Function: DataToDB, Status: Tables are successfullty Truncated
+2023-12-04 15:03:13,314 File: Demand, Function: upload_demand_to_DB, Status: Tables are added into DB
+2023-12-04 15:03:13,331 127.0.0.1 - - [04/Dec/2023 15:03:13] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-04 15:07:08,601  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 15:08:07,231 Connection successfully established!
+2023-12-04 15:08:33,052 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 15:08:38,673 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 15:12:29,475 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 15:13:47,052 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 15:13:47,053 Exception on /app/v1/kpl/tapeline/generate_schedule [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 934, in _finalize_columns_and_data
+    columns = _validate_or_indexify_columns(contents, columns)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 981, in _validate_or_indexify_columns
+    raise AssertionError(
+AssertionError: 28 columns passed, passed data had 29 columns
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1200, in get_schedule
+    schedule_df = pd.DataFrame(schedule[0][1:], columns=schedule[0][0])
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\frame.py", line 782, in __init__
+    arrays, columns, index = nested_data_to_arrays(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 498, in nested_data_to_arrays
+    arrays, columns = to_arrays(data, columns, dtype=dtype)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 840, in to_arrays
+    content, columns = _finalize_columns_and_data(arr, columns, dtype)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\internals\construction.py", line 937, in _finalize_columns_and_data
+    raise ValueError(err) from err
+ValueError: 28 columns passed, passed data had 29 columns
+2023-12-04 15:13:47,129 127.0.0.1 - - [04/Dec/2023 15:13:47] "[35m[1mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 500 -
+2023-12-04 15:17:12,290  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 15:17:20,972 Connection successfully established!
+2023-12-04 15:17:40,367 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 15:17:42,413 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 15:21:29,320 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 15:22:36,587 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 15:22:41,250 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-04 15:22:42,756 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfullty Truncated
+2023-12-04 15:22:44,857 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-04 15:22:45,974 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are added into DB
+2023-12-04 15:22:46,161 127.0.0.1 - - [04/Dec/2023 15:22:46] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-04 15:30:16,714  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 15:30:23,466 Connection successfully established!
+2023-12-04 15:30:49,164 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 15:30:51,031 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 15:36:30,397 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 15:38:20,674 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 15:38:26,158 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-04 15:38:28,660 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfullty Truncated
+2023-12-04 15:38:29,455 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-04 15:38:30,001 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are added into DB
+2023-12-04 15:38:30,369 127.0.0.1 - - [04/Dec/2023 15:38:30] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-04 15:40:51,959  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 15:40:56,242 Connection successfully established!
+2023-12-04 15:41:24,184 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 15:41:27,933 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 15:46:38,502 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 15:48:04,904 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 15:48:09,813 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-04 15:48:14,176 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfullty Truncated
+2023-12-04 15:48:14,864 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are Not added into DB, Reason: (pymssql._pymssql.ProgrammingError) (207, b"Invalid column name 'AuditDateTime'.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\nDB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n")
+[SQL: INSERT INTO [Algo8_Tapeline_Schedule] ([Prev_Tape_Id], [Prev_Tape_name], [Prev_Tape_Denier], [Prev_Tape_Colour], [Tape_id], [Tape_name], [TapePropertyName], [Tape_Denier], [TapeColour], [TapeMarking], [Total_Demand], [Weft_demand], [Warp_Demand], [Wa ... 51708 characters truncated ... roduction_loss_AkgZ__62)s, %(Wastage_AkgZ__62)s, %(Man_power_loss_ARsZ__62)s, %(AuditDateTime__62)s)]
+[parameters: {'Tape_Denier__0': 2030, 'Target_date__0': datetime.datetime(2023, 12, 1, 17, 37, 35, 117000), 'TapeDenier_Change_Endtime__0': 0, 'Prod_End_time__0': datetime.datetime(2023, 12, 3, 6, 31), 'Type_of_Changeover__0': 'recipe+mesh change', 'TapePropertyName__0': "['Warp']", 'Recipe_change_Endtime__0': datetime.datetime(2023, 12, 3, 6, 30), 'Prod_Start_Time__0': datetime.datetime(2023, 12, 3, 6, 30), 'Wastage_AkgZ__0': 0, 'Prev_Tape_Id__0': 1183, 'Prev_Tape_Colour__0': 'white', 'Weft_demand__0': 0.0, 'Warp_rf_Demand__0': 0.0, 'Tape_demand_+_Production_loss_+_Wastage__0': 6.220000000000027, 'Machine__0': 'Tape plant 1', 'Prev_Tape_Denier__0': 2150, 'Prev_Tape_name__0': '103143-PP-Narrow Tape-2150-White-Non UV (15% Filler)-2.3-110', 'Plan_no___0': 'Plan 1', 'Plant_Location__0': 'D-19', 'LoomNo__0': 69, 'Man_power_loss_ARsZ__0': 0, 'Production_loss_AkgZ__0': 0, 'Warp_Demand__0': 6.220000000000027, 'TapeDenier_Change_Starttime__0': 0, 'AuditDateTime__0': datetime.datetime(2023, 12, 4, 15, 48, 14, 177467), 'LoomType__0': 'LSL - 620', 'Tape_name__0': 'PP-Narrow Tape - 2.25 - 2030 - White-UV (26SG) - 119 - DOUBLE GREEN+BROWN 1', 'PreLogic_FinalFactor__0': 2, 'TapeMarking__0': 'DOUBLE GREEN+BROWN 1', 'Recipe_change_Starttime__0': datetime.datetime(2023, 12, 3, 5, 30), 'Tape_id__0': 1084, 'Total_Demand__0': 6.220000000000027, 'TapeColour__0': 'white', 'Tape_Denier__1': 1910, 'Target_date__1': datetime.datetime(2023, 12, 1, 17, 37, 35, 303000), 'TapeDenier_Change_Endtime__1': datetime.datetime(2023, 12, 3, 7, 1), 'Prod_End_time__1': datetime.datetime(2023, 12, 3, 9, 56), 'Type_of_Changeover__1': 'recipe+mesh change', 'TapePropertyName__1': "['Warp']", 'Recipe_change_Endtime__1': 0, 'Prod_Start_Time__1': datetime.datetime(2023, 12, 3, 7, 1), 'Wastage_AkgZ__1': 0, 'Prev_Tape_Id__1': 1084, 'Prev_Tape_Colour__1': 'white', 'Weft_demand__1': 0.0, 'Warp_rf_Demand__1': 0.0, 'Tape_demand_+_Production_loss_+_Wastage__1': 1417.74, 'Machine__1': 'Tape plant 1', 'Prev_Tape_Denier__1': 2030, 'Prev_Tape_name__1': 'PP-Narrow Tape - 2.25 - 2030 - White-UV (26SG) - 119 - DOUBLE GREEN+BROWN 1' ... 1979 parameters truncated ... 'Prev_Tape_name__61': 'PP-Narrow Tape - 2.25 - 1350 - White-UV - 77 - ORANGE+YELLOW', 'Plan_no___61': 'Plan 46', 'Plant_Location__61': 'D-19', 'LoomNo__61': 52, 'Man_power_loss_ARsZ__61': 0, 'Production_loss_AkgZ__61': 0, 'Warp_Demand__61': 0.0, 'TapeDenier_Change_Starttime__61': datetime.datetime(2023, 12, 7, 12, 48), 'AuditDateTime__61': datetime.datetime(2023, 12, 4, 15, 48, 14, 177467), 'LoomType__61': 'LSL - 6', 'Tape_name__61': 'PP-Wider Tape - 4.2 - 1380 - White-1.75% UV (26SG) - 80', 'PreLogic_FinalFactor__61': 1, 'TapeMarking__61': None, 'Recipe_change_Starttime__61': 0, 'Tape_id__61': 1180, 'Total_Demand__61': 89.96, 'TapeColour__61': 'white', 'Tape_Denier__62': 1455, 'Target_date__62': datetime.datetime(2023, 12, 2, 9, 0), 'TapeDenier_Change_Endtime__62': datetime.datetime(2023, 12, 7, 14, 4), 'Prod_End_time__62': datetime.datetime(2023, 12, 7, 15, 48), 'Type_of_Changeover__62': 'recipe+mesh change', 'TapePropertyName__62': "['Warp']", 'Recipe_change_Endtime__62': 0, 'Prod_Start_Time__62': datetime.datetime(2023, 12, 7, 14, 4), 'Wastage_AkgZ__62': 0, 'Prev_Tape_Id__62': 1180, 'Prev_Tape_Colour__62': 'white', 'Weft_demand__62': 0.0, 'Warp_rf_Demand__62': 0.0, 'Tape_demand_+_Production_loss_+_Wastage__62': 704.48, 'Machine__62': 'Tape plant 2', 'Prev_Tape_Denier__62': 1380, 'Prev_Tape_name__62': 'PP-Wider Tape - 4.2 - 1380 - White-1.75% UV (26SG) - 80', 'Plan_no___62': 'Plan 47', 'Plant_Location__62': 'D-19', 'LoomNo__62': 52, 'Man_power_loss_ARsZ__62': 0, 'Production_loss_AkgZ__62': 0, 'Warp_Demand__62': 704.48, 'TapeDenier_Change_Starttime__62': datetime.datetime(2023, 12, 7, 13, 34), 'AuditDateTime__62': datetime.datetime(2023, 12, 4, 15, 48, 14, 177467), 'LoomType__62': 'LSL - 6', 'Tape_name__62': 'PP-Narrow Tape - 2.25 - 1455 - White-UV (26SG) - 86 - BLUE', 'PreLogic_FinalFactor__62': 1, 'TapeMarking__62': 'BLUE', 'Recipe_change_Starttime__62': 0, 'Tape_id__62': 1089, 'Total_Demand__62': 704.48, 'TapeColour__62': 'white'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2023-12-04 15:48:15,428 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are added into DB
+2023-12-04 15:48:15,429 127.0.0.1 - - [04/Dec/2023 15:48:15] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-04 15:58:57,479  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 15:59:00,814 Connection successfully established!
+2023-12-04 15:59:22,145 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 15:59:25,320 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 16:03:26,412 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 16:04:39,210 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 16:04:43,245 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-04 16:04:45,090 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfullty Truncated
+2023-12-04 16:04:45,605 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-04 16:04:46,033 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are added into DB
+2023-12-04 16:04:46,219 127.0.0.1 - - [04/Dec/2023 16:04:46] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-04 16:13:28,332  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 16:13:34,715 Connection successfully established!
+2023-12-04 16:13:48,521 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 16:13:51,709 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 16:17:40,517 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 16:18:47,882 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 16:18:51,428 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-04 16:18:52,960 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfullty Truncated
+2023-12-04 16:18:53,425 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-04 16:18:53,835 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are added into DB
+2023-12-04 16:18:54,042 127.0.0.1 - - [04/Dec/2023 16:18:54] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-04 16:39:10,531  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 16:39:16,950 Connection successfully established!
+2023-12-04 16:39:41,732 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 16:39:47,702 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 16:43:40,706 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 16:44:49,442 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 16:45:01,848 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-04 16:45:03,902 File: Schedule, Function: upload_schedule_to_DB, Status: Error in uploading data or truncating tables, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-04 16:45:03,903 Exception on /app/v1/kpl/tapeline/generate_schedule [GET]
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1132, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 694, in do_commit
+    dbapi_connection.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1134, in upload_schedule_to_DB
+    schedule_dff.to_sql(name='Algo8_Tapeline_Schedule', con=self.engine, if_exists='append', index=False)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\generic.py", line 2878, in to_sql
+    return sql.to_sql(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\sql.py", line 769, in to_sql
+    return pandas_sql.to_sql(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\sql.py", line 1548, in __exit__
+    self.exit_stack.close()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 533, in close
+    self.__exit__(None, None, None)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 525, in __exit__
+    raise exc_details[1]
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 510, in __exit__
+    if cb(*exc_details):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\util.py", line 148, in __exit__
+    self.rollback()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\langhelpers.py", line 147, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\util.py", line 144, in __exit__
+    self.commit()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2615, in commit
+    self._do_commit()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2720, in _do_commit
+    self._connection_commit_impl()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2691, in _connection_commit_impl
+    self.connection._commit_impl()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1134, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2339, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1132, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 694, in do_commit
+    dbapi_connection.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+sqlalchemy.exc.OperationalError: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1191, in get_schedule
+    scheduler.upload_schedule_to_DB(schedule_dff,non_schedule_df)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1151, in upload_schedule_to_DB
+    raise Exception("Error in uploading data or truncating tables")
+Exception: Error in uploading data or truncating tables
+2023-12-04 16:45:03,956 127.0.0.1 - - [04/Dec/2023 16:45:03] "[35m[1mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 500 -
+2023-12-04 17:31:57,437  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 17:32:46,795 Connection successfully established!
+2023-12-04 17:33:04,855 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 17:33:08,444 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 17:38:14,220 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 17:40:08,088 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 17:40:13,033 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-04 17:40:24,715 File: schedule, Function: upload_schedule_to_DB, Status: Tables are Not Truncated, Reason: 'pymssql._pymssql.Cursor' object has no attribute 'commit'
+2023-12-04 17:40:24,772 Exception on /app/v1/kpl/tapeline/generate_schedule [GET]
+Traceback (most recent call last):
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1134, in upload_schedule_to_DB
+    cursor.commit()
+AttributeError: 'pymssql._pymssql.Cursor' object has no attribute 'commit'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1200, in get_schedule
+    scheduler.upload_schedule_to_DB(schedule_dff,non_schedule_df)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1141, in upload_schedule_to_DB
+    raise "Not able to Truncate the tables"
+TypeError: exceptions must derive from BaseException
+2023-12-04 17:40:25,078 127.0.0.1 - - [04/Dec/2023 17:40:25] "[35m[1mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 500 -
+2023-12-04 17:42:30,224  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-04 17:42:36,331 Connection successfully established!
+2023-12-04 17:42:53,249 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-04 17:42:56,700 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-04 17:48:53,335 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-04 17:50:23,256 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-04 17:50:28,056 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-04 17:50:29,689 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfullty Truncated
+2023-12-04 17:50:30,695 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-04 17:50:31,276 File: Schedule, Function: upload_schedule_to_DB, Status: Tables are added into DB
+2023-12-04 17:50:31,483 127.0.0.1 - - [04/Dec/2023 17:50:31] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-05 10:50:23,199  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-05 10:53:04,081 Connection successfully established!
+2023-12-05 10:53:21,314 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-05 10:53:23,162 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-05 10:56:16,424  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-05 10:56:21,348 Connection successfully established!
+2023-12-05 10:57:24,537 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-05 10:57:31,317 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-05 11:02:12,310 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-05 11:03:24,178 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-05 11:03:29,444 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-05 11:03:47,293 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-05 11:03:47,938 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-05 11:03:48,625 File: Schedule, Function: upload_schedule_to_DB, Status: Non-schedule data added into DB
+2023-12-05 11:03:48,865 127.0.0.1 - - [05/Dec/2023 11:03:48] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-05 11:06:08,516  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-05 11:06:12,325 Connection successfully established!
+2023-12-05 11:06:29,213 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-05 11:06:33,097 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-05 11:11:36,729 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-05 11:12:58,334 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-05 11:13:03,169 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-05 11:13:09,381 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-05 11:13:10,178 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-05 11:13:10,182 127.0.0.1 - - [05/Dec/2023 11:13:10] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-05 11:18:13,099  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-05 11:18:16,170 Connection successfully established!
+2023-12-05 11:18:38,205 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-05 11:18:40,181 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-05 11:22:52,185 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-05 11:24:01,261 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-05 11:24:05,080 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-05 11:24:06,288 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-05 11:24:06,794 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-05 11:24:06,957 File: schedule, Function: upload_non_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-05 11:24:07,532 File: Schedule, Function: upload_non_schedule_to_DB, Status: Non-schedule data added into DB
+2023-12-05 11:24:07,740 127.0.0.1 - - [05/Dec/2023 11:24:07] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-06 10:30:50,049  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-06 10:31:09,450 Connection successfully established!
+2023-12-06 10:31:12,246 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-06 10:31:47,000 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-06 10:31:48,357 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-06 10:31:48,749 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-06 10:31:49,405 File: Demand, Function: days_demand, Status: excecuted
+2023-12-06 10:31:49,592 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-06 10:32:21,320 File: Demand, Function: process_tape_demand, Status: excecuted
+2023-12-06 10:32:28,044 File: Demand, Function: upload_demand_to_DB, Status: Tables are successfullty Truncated
+2023-12-06 10:32:30,088 File: Demand, Function: upload_demand_to_DB, Status: Tables are added into DB
+2023-12-06 10:32:30,128 127.0.0.1 - - [06/Dec/2023 10:32:30] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-06 10:36:53,188  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-06 10:36:59,472 Connection successfully established!
+2023-12-06 10:37:01,306 File: Demand, Function: read_fabric_recipe, Status: completed
+2023-12-06 10:37:27,694 File: Demand , Function: read_weaving_planning, Status : excecuted
+2023-12-06 10:37:28,597 File: Demand , Function: read_master_fabric_data, Status : excecuted
+2023-12-06 10:37:28,802 File: Demand, Function: read_master_tape_data, Status: excecuted
+2023-12-06 10:37:28,962 File: Demand, Function: days_demand, Status: excecuted
+2023-12-06 10:37:29,113 File: Demand, Function: calculate_tape_demand, Status: excecuted
+2023-12-06 10:40:28,375 File: Demand, Function: process_tape_demand, Status: excecuted
+2023-12-06 10:40:31,961 File: Demand, Function: upload_demand_to_DB, Status: Tables are successfullty Truncated
+2023-12-06 10:40:36,527 File: Demand, Function: upload_demand_to_DB, Status: Tables are added into DB
+2023-12-06 10:40:36,545 127.0.0.1 - - [06/Dec/2023 10:40:36] "[37mGET /app/v1/kpl/tapeline/calculate_demand HTTP/1.1[0m" 200 -
+2023-12-06 10:41:13,481  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-06 10:41:22,172 Failed to establish a connection, Reason:Cannot start transaction: (20047, b'DB-Lib error message 20047, severity 9:\nDBPROCESS is dead or not enabled\n')
+2023-12-06 10:41:22,184 Exception on /app/v1/kpl/tapeline/generate_schedule [GET]
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 233, in pymssql._pymssql.Connection.__init__
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1232, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 785, in pymssql._mssql.MSSQLConnection.cancel
+  File "src\\pymssql\\_mssql.pyx", line 1782, in pymssql._mssql.check_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1818, in pymssql._mssql.maybe_raise_MSSQLDatabaseException
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (20047, b'DB-Lib error message 20047, severity 9:\nDBPROCESS is dead or not enabled\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Setups\Database\connection.py", line 38, in connect
+    self.conx = pymssql.connect(server=self.server, database=self.database,
+  File "src\\pymssql\\_pymssql.pyx", line 662, in pymssql._pymssql.connect
+  File "src\\pymssql\\_pymssql.pyx", line 235, in pymssql._pymssql.Connection.__init__
+pymssql._pymssql.OperationalError: Cannot start transaction: (20047, b'DB-Lib error message 20047, severity 9:\nDBPROCESS is dead or not enabled\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1199, in get_schedule
+    conn.connect()
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Setups\Database\connection.py", line 51, in connect
+    raise "Connection is not established"
+TypeError: exceptions must derive from BaseException
+2023-12-06 10:41:22,244 127.0.0.1 - - [06/Dec/2023 10:41:22] "[35m[1mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 500 -
+2023-12-06 10:43:02,639  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-06 10:43:07,898 Connection successfully established!
+2023-12-06 10:43:19,271 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-06 10:43:21,620 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-06 10:47:13,225 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-06 10:48:20,252 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-06 10:48:23,245 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-06 10:48:24,369 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-06 10:48:24,802 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-06 10:48:24,951 File: schedule, Function: upload_non_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-06 10:48:25,418 File: Schedule, Function: upload_non_schedule_to_DB, Status: Non-schedule data added into DB
+2023-12-06 10:48:25,647 127.0.0.1 - - [06/Dec/2023 10:48:25] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-06 12:37:29,525  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-06 12:37:43,270 Connection successfully established!
+2023-12-06 12:37:54,904 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-06 12:37:56,086 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-06 12:41:38,445 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-06 12:42:44,851 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-06 12:42:47,609 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-06 12:42:47,918 Exception on /app/v1/kpl/tapeline/generate_schedule [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1228, in get_schedule
+    schedule_dff.to_excel('SCHEDULE.xlsx',index = False)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\generic.py", line 2252, in to_excel
+    formatter.write(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\formats\excel.py", line 934, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\excel\_openpyxl.py", line 60, in __init__
+    super().__init__(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\excel\_base.py", line 1219, in __init__
+    self._handles = get_handle(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'SCHEDULE.xlsx'
+2023-12-06 12:42:48,077 127.0.0.1 - - [06/Dec/2023 12:42:48] "[35m[1mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 500 -
+2023-12-06 12:43:31,077  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-06 12:43:35,531 Connection successfully established!
+2023-12-06 12:43:45,626 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-06 12:43:46,770 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-06 12:47:32,130 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-06 12:48:37,055 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-06 12:48:39,900 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-06 12:48:40,975 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-06 12:48:41,447 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-06 12:48:41,586 File: schedule, Function: upload_non_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-06 12:48:42,025 File: Schedule, Function: upload_non_schedule_to_DB, Status: Non-schedule data added into DB
+2023-12-06 12:48:42,247 127.0.0.1 - - [06/Dec/2023 12:48:42] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-07 12:05:28,369  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 12:05:38,502 Connection successfully established!
+2023-12-07 12:07:13,155 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 12:07:19,414 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 12:11:42,381 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-07 12:13:10,778 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-07 12:13:15,744 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-07 12:13:20,404 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-07 12:13:20,900 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-07 12:13:21,053 File: schedule, Function: upload_non_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-07 12:13:21,591 File: Schedule, Function: upload_non_schedule_to_DB, Status: Non-schedule data added into DB
+2023-12-07 12:13:21,807 127.0.0.1 - - [07/Dec/2023 12:13:21] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-07 12:19:17,847  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 12:19:37,168 Connection successfully established!
+2023-12-07 12:21:29,729 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 12:21:34,921 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 12:25:36,888 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-07 12:26:48,944 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-07 12:26:53,214 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-07 12:26:54,665 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-07 12:26:55,183 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-07 12:26:55,186 127.0.0.1 - - [07/Dec/2023 12:26:55] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-07 12:29:15,338  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 12:29:20,823 Connection successfully established!
+2023-12-07 12:30:29,260 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 12:30:37,054 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 12:35:13,184 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-07 12:36:27,968 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-07 12:36:31,693 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-07 12:36:33,067 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-07 12:36:35,034 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-07 12:36:36,390 File: Schedule, Function: upload_schedule_to_DB, Status: non_Schedule data added into DB
+2023-12-07 12:36:36,621 127.0.0.1 - - [07/Dec/2023 12:36:36] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-07 12:45:30,107  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 12:45:34,014 Connection successfully established!
+2023-12-07 12:46:10,670  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 12:46:13,762 Connection successfully established!
+2023-12-07 12:47:34,168 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 12:47:39,918 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 12:51:25,631 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-07 12:52:30,134 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-07 12:52:34,312 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-07 12:52:34,550 Exception on /app/v1/kpl/tapeline/generate_schedule [GET]
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1205, in get_schedule
+    schedule_dff.to_excel('C:/Users/ATISHAY/Desktop/KPL_Tapeline/SCHEDULE.xlsx',index = False)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\generic.py", line 2252, in to_excel
+    formatter.write(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\formats\excel.py", line 934, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\excel\_openpyxl.py", line 60, in __init__
+    super().__init__(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\excel\_base.py", line 1219, in __init__
+    self._handles = get_handle(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\common.py", line 868, in get_handle
+    handle = open(handle, ioargs.mode)
+PermissionError: [Errno 13] Permission denied: 'C:/Users/ATISHAY/Desktop/KPL_Tapeline/SCHEDULE.xlsx'
+2023-12-07 12:52:34,649 127.0.0.1 - - [07/Dec/2023 12:52:34] "[35m[1mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 500 -
+2023-12-07 12:52:59,969  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 12:53:02,411 Connection successfully established!
+2023-12-07 12:54:10,559 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 12:54:15,018 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 12:58:03,470 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-07 12:59:16,395 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-07 12:59:19,310 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-07 12:59:20,411 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-07 12:59:20,851 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-07 12:59:20,851 Exception on /app/v1/kpl/tapeline/generate_schedule [GET]
+Traceback (most recent call last):
+  File "src\\pymssql\\_pymssql.pyx", line 278, in pymssql._pymssql.Connection.commit
+  File "src\\pymssql\\_mssql.pyx", line 1056, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1077, in pymssql._mssql.MSSQLConnection.execute_non_query
+  File "src\\pymssql\\_mssql.pyx", line 1251, in pymssql._mssql.MSSQLConnection.format_and_run_query
+  File "src\\pymssql\\_mssql.pyx", line 1789, in pymssql._mssql.check_cancel_and_raise
+  File "src\\pymssql\\_mssql.pyx", line 1835, in pymssql._mssql.raise_MSSQLDatabaseException
+pymssql._mssql.MSSQLDatabaseException: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1132, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 694, in do_commit
+    dbapi_connection.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+pymssql._pymssql.OperationalError: Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1146, in upload_schedule_to_DB
+    schedule_dff.to_sql(name='Algo8_Tapeline_Schedule', con=self.engine, if_exists='append', index=False)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\core\generic.py", line 2878, in to_sql
+    return sql.to_sql(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\sql.py", line 769, in to_sql
+    return pandas_sql.to_sql(
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\pandas\io\sql.py", line 1548, in __exit__
+    self.exit_stack.close()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 533, in close
+    self.__exit__(None, None, None)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 525, in __exit__
+    raise exc_details[1]
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\contextlib.py", line 510, in __exit__
+    if cb(*exc_details):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\util.py", line 148, in __exit__
+    self.rollback()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\util\langhelpers.py", line 147, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\util.py", line 144, in __exit__
+    self.commit()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2615, in commit
+    self._do_commit()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2720, in _do_commit
+    self._connection_commit_impl()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2691, in _connection_commit_impl
+    self.connection._commit_impl()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1134, in _commit_impl
+    self._handle_dbapi_exception(e, None, None, None, None)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 2339, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\base.py", line 1132, in _commit_impl
+    self.engine.dialect.do_commit(self.connection)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\sqlalchemy\engine\default.py", line 694, in do_commit
+    dbapi_connection.commit()
+  File "src\\pymssql\\_pymssql.pyx", line 281, in pymssql._pymssql.Connection.commit
+sqlalchemy.exc.OperationalError: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\_compat.py", line 39, in reraise
+    raise value
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\ATISHAY\AppData\Local\Programs\Python\Python38\lib\site-packages\flask\app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1211, in get_schedule
+    scheduler.upload_schedule_to_DB(final_schedule,final_non_schedule)
+  File "c:\Users\ATISHAY\Desktop\KPL_Tapeline\Tapeline\Utilities\generate_schedule.py", line 1154, in upload_schedule_to_DB
+    raise Exception("Not able to Upload schedule") from e
+Exception: Not able to Upload schedule
+2023-12-07 12:59:20,934 127.0.0.1 - - [07/Dec/2023 12:59:20] "[35m[1mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 500 -
+2023-12-07 13:10:19,521  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 13:10:22,593 Connection successfully established!
+2023-12-07 13:12:03,672 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 13:12:08,829 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 13:16:00,677  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 13:16:04,472 Connection successfully established!
+2023-12-07 13:17:42,613 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 13:17:48,269 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 13:21:17,779 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-07 13:22:18,542 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-07 13:22:21,739 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-07 13:22:22,818 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-07 13:22:23,330 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-07 13:22:23,832 File: Schedule, Function: upload_schedule_to_DB, Status: Non-schedule data added into DB
+2023-12-07 13:22:24,021 127.0.0.1 - - [07/Dec/2023 13:22:24] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-07 13:32:56,988  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 13:33:42,132 Connection successfully established!
+2023-12-07 13:34:58,624 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 13:35:03,603 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 13:39:12,939 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-07 13:40:17,557 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-07 13:40:20,367 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-07 13:40:21,521 File: schedule, Function: upload_schedule_to_DB, Status: Tables are successfully Truncated
+2023-12-07 13:40:22,135 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-07 13:40:22,760 File: Schedule, Function: upload_schedule_to_DB, Status: Non-schedule data added into DB
+2023-12-07 13:40:22,958 127.0.0.1 - - [07/Dec/2023 13:40:22] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-07 14:21:15,762  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 14:21:18,341 Connection successfully established!
+2023-12-07 14:22:26,189 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 14:22:37,870 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 14:26:39,466 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-07 14:28:01,085 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-07 14:28:09,891 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-07 14:28:37,363 File: Schedule, Function : upload schedule, Status: Tables are truncated successfully
+2023-12-07 14:28:38,579 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-07 14:28:39,735 File: Schedule, Function: upload_schedule_to_DB, Status: non_Schedule data added into DB
+2023-12-07 14:28:39,954 127.0.0.1 - - [07/Dec/2023 14:28:39] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-07 17:49:45,747  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 17:51:05,560 Connection successfully established!
+2023-12-07 17:51:18,161 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 17:51:19,595 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 17:56:22,441 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-07 17:57:42,486 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-07 17:57:46,274 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-07 17:57:59,190 File: Schedule, Function : upload schedule, Status: Tables are truncated successfully
+2023-12-07 17:57:59,793 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-07 17:58:00,322 File: Schedule, Function: upload_schedule_to_DB, Status: non_Schedule data added into DB
+2023-12-07 17:58:00,509 127.0.0.1 - - [07/Dec/2023 17:58:00] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
+2023-12-07 18:06:32,691  * Running on http://0.0.0.0:5001/ (Press CTRL+C to quit)
+2023-12-07 18:06:35,343 Connection successfully established!
+2023-12-07 18:06:47,551 File :generate_schedule, Function : read_production_data, Status: executed
+2023-12-07 18:06:49,462 File :generate_schedule, Function : read_breakdown_data, Status: executed
+2023-12-07 18:10:38,747 File :generate_schedule, Function : calculate_breakdown_duration, Status: executed
+2023-12-07 18:11:42,787 File :generate_schedule, Function : best_machine_schedule_tapes, Status: executed
+2023-12-07 18:11:45,621 File :generate_schedule, Function :  tape_scheduler_schedule_tapes, Status: executed
+2023-12-07 18:11:48,742 File: Schedule, Function : upload schedule, Status: Tables are truncated successfully
+2023-12-07 18:11:49,174 File: Schedule, Function: upload_schedule_to_DB, Status: Schedule data Not added into DB, Reason: (pymssql._pymssql.OperationalError) Cannot commit transaction: (3902, b'The COMMIT TRANSACTION request has no corresponding BEGIN TRANSACTION.DB-Lib error message 20018, severity 16:\nGeneral SQL Server error: Check messages from the SQL Server\n')
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2023-12-07 18:11:49,676 File: Schedule, Function: upload_schedule_to_DB, Status: non_Schedule data added into DB
+2023-12-07 18:11:49,885 127.0.0.1 - - [07/Dec/2023 18:11:49] "[37mGET /app/v1/kpl/tapeline/generate_schedule HTTP/1.1[0m" 200 -
